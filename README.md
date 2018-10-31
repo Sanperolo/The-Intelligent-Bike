@@ -8,7 +8,7 @@
 
 ###### Source: [Pinterest](https://www.pinterest.es/pin/410038741048443620)
 
-### 🕹️ Sensors: Velocity, Humidity, Temperature, Latitude-Longitude, GPS, pedal/minute, Giroscope, ON/OFF the lights, vibrations...
+### 🕹️ Sensors: Velocity, Humidity, Temperature, Latitude-Longitude, GPS, pedal/minute, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Giroscope, ON/OFF the lights, vibrations...
 ### 🌐 Protocols: Send the data MQTT (Message Queue Telemetry Transport) Restfull API, 
 ### 📊 Front-End:  
 - 💻 **Web**: Angular JS&#174; // ReactJS&#174; // VueJS&#174;.
