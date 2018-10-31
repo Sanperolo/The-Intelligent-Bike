@@ -1,5 +1,10 @@
 # The Intelligent Bike using Raspberry Pi&#174; 🧠🚴‍
 ## Dashboard Bike - Cycling Sensors
+---
+
+<p align="center">
+  <img src="https://github.com/Sanperolo/The-Intelligent-Bike/blob/master/images/The%20Intelligent%20Bike.jpg"/>
+</p>
 
 ### 🕹️ Sensors: Velocity, Humidity, Temperature, Latitude-Longitude, GPS, pedal/minute, Giroscope, ON/OFF the lights, vibrations...
 ### 🌐 Protocols: Send the data MQTT (Message Queue Telemetry Transport) Restfull API, 
@@ -12,5 +17,5 @@
 ### 🔌 PowerBank AC Power in order to give Energy to the Pi. 
 
 ### ⚡ Founders & Contributors
-- Miguel Ángel Heranz Marcos
-- Rafael García Cuéllar
+- [Miguel Ángel Heranz Marcos](https://github.com/Sanperolo)
+- [Rafael García Cuéllar](https://github.com/rafagarciac)
