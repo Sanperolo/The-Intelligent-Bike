@@ -1,0 +1,7 @@
+Rain Sensor --> https://www.sunfounder.com/raindrop-sensor-module.html
+Temperature Sensor --> https://www.sunfounder.com/ds18b20-temperature-sensor-module.html
+Accelerometer Sensor --> https://www.sunfounder.com/accelerometer-gyro-sensors.html
+Humiture Sensor --> https://www.sunfounder.com/humiture-sensor-module.html
+Display Sensor --> https://www.sunfounder.com/display.html
+LEDs Strip --> https://www.amazon.com/SUPERNIGHT-5-Meter-Waterproof-Flexible-	Changing/dp/B00ASHQQKI/ref=as_li_ss_tl?ie=UTF8&qid=1508454019&sr=8-3&keywords=rgb+led+strip	+smd5050&linkCode=sl1&tag=dordnung08-20&linkId=e76a136117bedb6639bba234b99f54b8
+Light Sensor --> https://www.adafruit.com/product/439
