@@ -27,8 +27,7 @@
 ---
 MIT License
 
-Copyright (c) 2018 Miguel Ángel Herranz Marcos
-                   Rafael García Cuéllar
+Copyright (c) 2018 Miguel Ángel Herranz Marcos <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rafael García Cuéllar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
