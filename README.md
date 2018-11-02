@@ -23,6 +23,9 @@
 - [Miguel Ángel Heranz Marcos](https://github.com/Sanperolo)
 - [Rafael García Cuéllar](https://github.com/rafagarciac)
 
+## Architectural Diagram 
+![](https://github.com/Sanperolo/The-Intelligent-Bike/blob/master/images/The_Intelligent_Bike_Architecture.png)
+
 ## License
 ---
 MIT License
