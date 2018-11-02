@@ -1,0 +1,18 @@
+--- Dashboard Bike - Cycling Sensors for Cycling Computer ---
+- Sensors: Velocity, Humidity, Temperature, Latitude-Longitude, GPS, pedal/minute, Giroscope,
+	   ON/OFF the lights, vibrations...
+- Send the data MQTT (Message Queue Telemetry Transport) // Websocket // SocketIO ?.
+- Restfull API ¿?
+- Front-End:  WEB: Angular JS // ReactJS // VueJS. Access to data sended by R-Pi via HTTP
+	      MOBILE: Ionic // PhoneGap // Xamarin - Hybrid Application (Android & Apple)
+- Set-Up Raspberry-Pi in the Bike.
+- Internet via Mobile: Shared Data-Mobile for access to Internet.
+- Connect to Mongo DB. In order to save the data ??
+- PowerBank AC Power
+
+--- Artificial Inteligence ---
+- Face Recognition
+- Gestures Detection and apply the gestures to do something
+
+--- Machine Learning ---
+--- Deep Learning ---
