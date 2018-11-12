@@ -22,6 +22,7 @@
 ### ⚡ Founders & Contributors
 - [Miguel Ángel Heranz Marcos](https://github.com/Sanperolo)
 - [Rafael García Cuéllar](https://github.com/rafagarciac)
+- [Aleksandr Daškevič](https://github.com/CaH95)
 
 ## Architectural Diagram 
 ![](https://github.com/Sanperolo/The-Intelligent-Bike/blob/master/images/The_Intelligent_Bike_Architecture.png)
