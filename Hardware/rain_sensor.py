@@ -6,13 +6,13 @@ import RPi.GPIO as GPIO
 import time
 import math
 
-DO = 12
+PIN_SENSOR = 19
 GPIO.setmode(GPIO.BCM)
 
-def setup():
+def setup(DO):
 	GPIO.setup(DO, GPIO.IN)
 
-def Print(x):
+def output(x):
 	if x == 1:
 		print('')
 		print('   ***************')
@@ -29,17 +29,13 @@ def Print(x):
 def loop():
 	status = 1
 	while True:
-		
-		tmp = GPIO.input(DO);
-		if tmp != status:
-			Print(tmp)
-			status = tmp
-		
-		time.sleep(0.2)
+		tmp = GPIO.input(PIN_SENSOR);
+		output(tmp)
+		time.sleep(1)
 
 if __name__ == '__main__':
 	try:
-		setup()
+		setup(PIN_SENSOR)
 		loop()
 	except KeyboardInterrupt: 
 		pass	
