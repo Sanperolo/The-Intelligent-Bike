@@ -11,10 +11,6 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
-import django_heroku
-
-# Activate Django-Heroku.
-django_heroku.settings(locals())
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -29,7 +25,7 @@ SECRET_KEY = '5!b2*rz-=rw*!5n10v3@cu2q@)9mm10yuicn4q&owha1mc50ze'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['api-tib.herokuapp.com', 'tibapi.herokuapp.com']
 
 
 # Application definition
@@ -80,11 +76,30 @@ WSGI_APPLICATION = 'api.wsgi.application'
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {
+    # Dev
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    # },
+    
+    # Prod
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dbm7nq4s9r3tcb',
+        'USER': 'ixbvvcmeatsrur',
+        'PASSWORD': '7f970762e7bafb9d7c0695720710de1863de761be669370ca3f497fc4442eedd',
+        'HOST': 'ec2-54-243-212-227.compute-1.amazonaws.com',
+        'PORT': '5432',
+    },
 }
+
+# Host ec2-54-243-212-227.compute-1.amazonaws.com
+# Database dbm7nq4s9r3tcb
+# User ixbvvcmeatsrur
+# Port 5432
+# Password 7f970762e7bafb9d7c0695720710de1863de761be669370ca3f497fc4442eedd
+# URI postgres://ixbvvcmeatsrur:7f970762e7bafb9d7c0695720710de1863de761be669370ca3f497fc4442eedd@ec2-54-243-212-227.compute-1.amazonaws.com:5432/dbm7nq4s9r3tcb
+# Heroku CLI heroku pg:psql postgresql-parallel-15332 --app api-tib
 
 
 # Password validation
