@@ -25,7 +25,7 @@ SECRET_KEY = '5!b2*rz-=rw*!5n10v3@cu2q@)9mm10yuicn4q&owha1mc50ze'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['api-tib.herokuapp.com', 'tibapi.herokuapp.com']
+ALLOWED_HOSTS = ['api-tib.herokuapp.com', 'tibapi.herokuapp.com', '*']
 
 
 # Application definition
@@ -81,7 +81,7 @@ DATABASES = {
     #     'ENGINE': 'django.db.backends.sqlite3',
     #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # },
-    
+
     # Prod
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
