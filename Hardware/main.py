@@ -14,6 +14,9 @@ from rain_sensor import output as rain_sensor_output
 # MQTT imports
 import paho.mqtt.client as mqtt
 
+# Utils imports
+import json
+
 # Unify all the sensors in order to send all the sensor data to the Backend with MQTT Protocol 
 # ----------------------------------------------------
 # 1. Raindrop Sensor 
@@ -41,7 +44,7 @@ PIN_LED = 4
 # HiveMQ	 	 broker.mqttdashboard.com	1883
 
 HOST = "iot.eclipse.org"		# Default
-URL_TOPIC = "sensor/data/"       # send messages to this topic
+URL_TOPIC = "sensor/data/sensors_data"       # send messages to this topic
 PORT = 1883
 
 # Mqtt Global Setup 
@@ -57,9 +60,10 @@ def setup():
 	GPIO.setup(PIN_LED, GPIO.OUT, initial=GPIO.LOW) #HIGH=1 LOW=0 
 
 def publish_data_mqtt(isRaining, humidity, temperature):
-	client.publish(URL_TOPIC + "rain", isRaining)
-	client.publish(URL_TOPIC + "humidity", humidity)
-	client.publish(URL_TOPIC + 	"temperature", temperature)
+	# sensors_data - b'{"raining": false, "temperature": 22.100000381469727, "humidity": 69.5999984741211}'
+	
+	data = json.dumps({'raining': isRaining, 'humidity': humidity, 'temperature': temperature})
+	client.publish(URL_TOPIC, data)
 
 def led_rain_led(tmp):
 	GPIO.output(PIN_LED, GPIO.HIGH) if tmp == 0 else GPIO.output(PIN_LED, GPIO.LOW)
@@ -86,6 +90,7 @@ def main():
 		# Publish Data in MQTT
 		publish_data_mqtt(isRaining(tmp), humi, temp)
 		
+		# We updated each second.
 		time.sleep(1)
 	
 if __name__ == '__main__':
