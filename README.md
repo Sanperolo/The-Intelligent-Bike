@@ -13,16 +13,14 @@
 ### 🌐 Protocols: Send the data MQTT (Message Queue Telemetry Transport) Restfull API, 
 ### 📊 Front-End:  
 - 💻 **Web**: [Angular JS&#174;](https://angular.io/) // [ReactJS&#174;](https://reactjs.org/) // [VueJS&#174;](https://vuejs.org/).
-- 📱 &nbsp; **Mobile**: [Ionic&#174;](https://ionicframework.com/) // [PhoneGap&#174;](https://phonegap.com/) // [Xamarin&#174;](https://visualstudio.microsoft.com/es/xamarin/) Hybrid Application (Android & Apple)
 ### Set-Up Raspberry-Pi in the Bike.
 ### 📡 WI-FI Hot-Spot via Mobile: Shared Internet Data to Raspberry-Pi for access to Internet.
-### 🍃 Database NoSQL [Mongo DB&#174;](https://www.mongodb.com/).
+### 🍃 SQL Database [PostgreSQL&#174;](https://www.postgresql.org/).
 ### 🔌 PowerBank AC Power in order to give Energy to the Pi. 
 
 ### ⚡ Founders & Contributors
 - [Miguel Ángel Heranz Marcos](https://github.com/Sanperolo)
 - [Rafael García Cuéllar](https://github.com/rafagarciac)
-- [Aleksandr Daškevič](https://github.com/CaH95)
 
 ## Architectural Diagram 
 ![](https://github.com/Sanperolo/The-Intelligent-Bike/blob/master/images/The_Intelligent_Bike_Architecture.png)
