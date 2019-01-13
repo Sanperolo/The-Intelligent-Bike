@@ -5,7 +5,7 @@ import { map } from 'rxjs/operators';
 @Injectable()
 export class SensorsService {
 
-  private sensorsUrl: string = 'http://api-tib.herokuapp.com/sensors/';
+  private sensorsUrl: string = 'https://api-tib.herokuapp.com/sensors/';
   constructor (private http: HttpClient) {}
 
   getRain() {

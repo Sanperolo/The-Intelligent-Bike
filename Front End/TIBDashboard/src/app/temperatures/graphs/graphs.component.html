@@ -1,9 +1,9 @@
 <mat-grid-list cols="2" rowHeight="2:1">
   <mat-grid-tile>
       <canvas baseChart
-      [datasets]="lineChartHumidityData" 
-      [labels]="lineChartHumidityLabels" 
-      [options]="lineCharHumiditytOptions" 
+      [datasets]="lineChartHumidityData"
+      [labels]="lineChartHumidityLabels"
+      [options]="barChartOptions"
       [legend]="lineChartHumidityLegend"
       [chartType]="lineChartHumidityType"
       [colors]="lineChartColors"
@@ -13,9 +13,9 @@
   </mat-grid-tile>
   <mat-grid-tile>
       <canvas baseChart
-        baseChart [datasets]="lineChartTempData" 
-        [labels]="lineChartTempLabels" 
-        [options]="lineChartTempOptions" 
+        [datasets]="lineChartTempData"
+        [labels]="lineChartTempLabels"
+        [options]="barChartOptions"
         [legend]="lineChartTempLegend"
         [chartType]="lineChartTempType" >
       </canvas>
