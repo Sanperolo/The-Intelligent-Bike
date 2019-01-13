@@ -1,0 +1,8 @@
+<mz-input-container>
+  <input #box
+         mz-input
+         [label]="'Temp'"
+         length="5"
+         type="number"
+         (keyup.enter)="onEnter(box.value)">
+</mz-input-container>

@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mz-navbar>
+  <a routerLink="/" class="brand-logo" >Dashboard</a>
+  <mz-navbar-item-container [align]="'right'">
+    <mz-navbar-item><a routerLink="/">Home</a></mz-navbar-item>
+    <mz-navbar-item><a routerLink="/temp-graphs">Graphs</a></mz-navbar-item>
+  </mz-navbar-item-container>
+</mz-navbar>
+<div class="container" style="margin-top: 50px;">
+  <router-outlet></router-outlet>
+</div>

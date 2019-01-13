@@ -1,0 +1,28 @@
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile>
+      <canvas baseChart
+      [datasets]="lineChartHumidityData" 
+      [labels]="lineChartHumidityLabels" 
+      [options]="lineCharHumiditytOptions" 
+      [legend]="lineChartHumidityLegend"
+      [chartType]="lineChartHumidityType"
+      [colors]="lineChartColors"
+      [chartType]="lineChartType"
+      (chartHover)="chartHovered($event)"
+      (chartClick)="chartClicked($event)"></canvas>
+  </mat-grid-tile>
+  <mat-grid-tile>
+      <canvas baseChart
+        baseChart [datasets]="lineChartTempData" 
+        [labels]="lineChartTempLabels" 
+        [options]="lineChartTempOptions" 
+        [legend]="lineChartTempLegend"
+        [chartType]="lineChartTempType" >
+      </canvas>
+  </mat-grid-tile>
+</mat-grid-list>
+<mat-grid-list cols="1" rowHeight="2:1">
+  <mat-grid-tile>
+    <mat-slide-toggle [checked]="isChecked" (change)="isRainingToogle($event)"> {{switch}}  </mat-slide-toggle>
+  </mat-grid-tile>
+</mat-grid-list>
